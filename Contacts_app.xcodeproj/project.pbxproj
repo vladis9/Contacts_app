@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F51C81EC26C15CFE00B4980A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C81EB26C15CFE00B4980A /* AppDelegate.swift */; };
 		F51C81EE26C15CFE00B4980A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C81ED26C15CFE00B4980A /* SceneDelegate.swift */; };
-		F51C81F026C15CFE00B4980A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C81EF26C15CFE00B4980A /* ViewController.swift */; };
+		F51C81F026C15CFE00B4980A /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C81EF26C15CFE00B4980A /* ContactsViewController.swift */; };
 		F51C81F526C15D0100B4980A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51C81F426C15D0100B4980A /* Assets.xcassets */; };
 		F51C81F826C15D0100B4980A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51C81F626C15D0100B4980A /* LaunchScreen.storyboard */; };
 		F51C820126C15D5100B4980A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C820026C15D5100B4980A /* MainTabBarController.swift */; };
+		F53E3F9C26C25DD7004BA8BB /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53E3F9B26C25DD7004BA8BB /* RecentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F51C81E826C15CFD00B4980A /* Contacts_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51C81EB26C15CFE00B4980A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F51C81ED26C15CFE00B4980A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F51C81EF26C15CFE00B4980A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F51C81EF26C15CFE00B4980A /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		F51C81F426C15D0100B4980A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51C81F726C15D0100B4980A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F51C81F926C15D0100B4980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F51C820026C15D5100B4980A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		F53E3F9B26C25DD7004BA8BB /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				F51C81EB26C15CFE00B4980A /* AppDelegate.swift */,
 				F51C81ED26C15CFE00B4980A /* SceneDelegate.swift */,
-				F51C81EF26C15CFE00B4980A /* ViewController.swift */,
+				F51C81EF26C15CFE00B4980A /* ContactsViewController.swift */,
+				F53E3F9B26C25DD7004BA8BB /* RecentViewController.swift */,
 				F51C81F426C15D0100B4980A /* Assets.xcassets */,
 				F51C820026C15D5100B4980A /* MainTabBarController.swift */,
 				F51C81F626C15D0100B4980A /* LaunchScreen.storyboard */,
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F51C81F026C15CFE00B4980A /* ViewController.swift in Sources */,
+				F51C81F026C15CFE00B4980A /* ContactsViewController.swift in Sources */,
+				F53E3F9C26C25DD7004BA8BB /* RecentViewController.swift in Sources */,
 				F51C81EC26C15CFE00B4980A /* AppDelegate.swift in Sources */,
 				F51C820126C15D5100B4980A /* MainTabBarController.swift in Sources */,
 				F51C81EE26C15CFE00B4980A /* SceneDelegate.swift in Sources */,

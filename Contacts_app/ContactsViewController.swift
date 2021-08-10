@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ContactsViewController.swift
 //  Contacts_app
 //
 //  Created by Vlad Zinevich on 09.08.2021.
@@ -7,11 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ContactsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .orange
     }
 
 
