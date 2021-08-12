@@ -14,6 +14,15 @@
 		F51C81F826C15D0100B4980A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51C81F626C15D0100B4980A /* LaunchScreen.storyboard */; };
 		F51C820126C15D5100B4980A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C820026C15D5100B4980A /* MainTabBarController.swift */; };
 		F53E3F9C26C25DD7004BA8BB /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53E3F9B26C25DD7004BA8BB /* RecentViewController.swift */; };
+		F5B7FA5C26C3E87F00947628 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7FA5B26C3E87F00947628 /* ProfileCell.swift */; };
+		F5B7FA5F26C3EC9900947628 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7FA5E26C3EC9900947628 /* UserModel.swift */; };
+		F5B7FA6226C3ECCC00947628 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7FA6126C3ECCC00947628 /* SelfConfiguringCell.swift */; };
+		F5B7FA6D26C3EE3B00947628 /* Bundle + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7FA6C26C3EE3B00947628 /* Bundle + Extensions.swift */; };
+		F5B7FA7126C3EEEB00947628 /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7FA7026C3EEEB00947628 /* FavouriteCell.swift */; };
+		F5B7FA7426C3EF0000947628 /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7FA7326C3EF0000947628 /* ContactsCell.swift */; };
+		F5B7FA7726C4F6B300947628 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7FA7626C4F6B300947628 /* UIViewController + Extension.swift */; };
+		F5B7FA7A26C5063200947628 /* favouriteUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = F5B7FA7926C5063100947628 /* favouriteUsers.json */; };
+		F5B7FA7D26C5064200947628 /* contactUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = F5B7FA7C26C5064200947628 /* contactUsers.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		F51C81F926C15D0100B4980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F51C820026C15D5100B4980A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F53E3F9B26C25DD7004BA8BB /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		F5B7FA5B26C3E87F00947628 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		F5B7FA5E26C3EC9900947628 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F5B7FA6126C3ECCC00947628 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		F5B7FA6C26C3EE3B00947628 /* Bundle + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle + Extensions.swift"; sourceTree = "<group>"; };
+		F5B7FA7026C3EEEB00947628 /* FavouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCell.swift; sourceTree = "<group>"; };
+		F5B7FA7326C3EF0000947628 /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
+		F5B7FA7626C4F6B300947628 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		F5B7FA7926C5063100947628 /* favouriteUsers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favouriteUsers.json; sourceTree = "<group>"; };
+		F5B7FA7C26C5064200947628 /* contactUsers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contactUsers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +78,63 @@
 			children = (
 				F51C81EB26C15CFE00B4980A /* AppDelegate.swift */,
 				F51C81ED26C15CFE00B4980A /* SceneDelegate.swift */,
-				F51C81EF26C15CFE00B4980A /* ContactsViewController.swift */,
-				F53E3F9B26C25DD7004BA8BB /* RecentViewController.swift */,
+				F5B7FA6526C3ED4900947628 /* Models */,
+				F5B7FA6A26C3ED8200947628 /* Controllers */,
+				F5B7FA6426C3ED1200947628 /* Cell */,
+				F5B7FA6726C3ED5C00947628 /* Protocols */,
+				F5B7FA6F26C3EE5000947628 /* Extensions */,
 				F51C81F426C15D0100B4980A /* Assets.xcassets */,
-				F51C820026C15D5100B4980A /* MainTabBarController.swift */,
 				F51C81F626C15D0100B4980A /* LaunchScreen.storyboard */,
+				F5B7FA7926C5063100947628 /* favouriteUsers.json */,
+				F5B7FA7C26C5064200947628 /* contactUsers.json */,
 				F51C81F926C15D0100B4980A /* Info.plist */,
 			);
 			path = Contacts_app;
+			sourceTree = "<group>";
+		};
+		F5B7FA6426C3ED1200947628 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7FA5B26C3E87F00947628 /* ProfileCell.swift */,
+				F5B7FA7026C3EEEB00947628 /* FavouriteCell.swift */,
+				F5B7FA7326C3EF0000947628 /* ContactsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F5B7FA6526C3ED4900947628 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7FA5E26C3EC9900947628 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5B7FA6726C3ED5C00947628 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7FA6126C3ECCC00947628 /* SelfConfiguringCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F5B7FA6A26C3ED8200947628 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F51C81EF26C15CFE00B4980A /* ContactsViewController.swift */,
+				F53E3F9B26C25DD7004BA8BB /* RecentViewController.swift */,
+				F51C820026C15D5100B4980A /* MainTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5B7FA6F26C3EE5000947628 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7FA6C26C3EE3B00947628 /* Bundle + Extensions.swift */,
+				F5B7FA7626C4F6B300947628 /* UIViewController + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +194,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B7FA7A26C5063200947628 /* favouriteUsers.json in Resources */,
 				F51C81F826C15D0100B4980A /* LaunchScreen.storyboard in Resources */,
 				F51C81F526C15D0100B4980A /* Assets.xcassets in Resources */,
+				F5B7FA7D26C5064200947628 /* contactUsers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +209,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F51C81F026C15CFE00B4980A /* ContactsViewController.swift in Sources */,
+				F5B7FA6226C3ECCC00947628 /* SelfConfiguringCell.swift in Sources */,
+				F5B7FA5F26C3EC9900947628 /* UserModel.swift in Sources */,
 				F53E3F9C26C25DD7004BA8BB /* RecentViewController.swift in Sources */,
 				F51C81EC26C15CFE00B4980A /* AppDelegate.swift in Sources */,
+				F5B7FA7126C3EEEB00947628 /* FavouriteCell.swift in Sources */,
+				F5B7FA5C26C3E87F00947628 /* ProfileCell.swift in Sources */,
 				F51C820126C15D5100B4980A /* MainTabBarController.swift in Sources */,
 				F51C81EE26C15CFE00B4980A /* SceneDelegate.swift in Sources */,
+				F5B7FA7426C3EF0000947628 /* ContactsCell.swift in Sources */,
+				F5B7FA7726C4F6B300947628 /* UIViewController + Extension.swift in Sources */,
+				F5B7FA6D26C3EE3B00947628 /* Bundle + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
